@@ -1,0 +1,25 @@
+@import 'index';
+
+body {
+  background-color: $color-desert-storm;
+  color: $color-fiord;
+  margin: auto;
+  max-width: 1440px;
+  padding: 0;
+}
+
+.app {
+  align-items: center;
+  background-color: $color-desert-storm;
+  display: flex;
+  flex-direction: column;
+  font-family: $font-roboto-regular;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+}
+a {
+  color: $color-electric-violet;
+  text-decoration: none;
+}
